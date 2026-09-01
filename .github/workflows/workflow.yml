@@ -9,7 +9,7 @@ jobs:
     name: Test Action Workflow (Job)
     permissions:
       # To write linting fixes
-      contents: write
+      contents: read
       # To write Super-linter status checks
       statuses: write
     runs-on: ubuntu-latest
