@@ -6,6 +6,12 @@ on:
 
 jobs:
   test:
+    name: Test Action Workflow (Job)
+    permissions:
+      # To write linting fixes
+      contents: write
+      # To write Super-linter status checks
+      statuses: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
