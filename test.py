@@ -2,7 +2,7 @@ from datetime import date
 
 def print_date():
     today = date.today()
-    printf(f"Today's date is {today}")
+    print(f"Today's date is {today}")
 
 def main():
     print("\n\nHey Kaushik, good afternoon!\n\n")
